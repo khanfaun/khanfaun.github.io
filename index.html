@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Trang web đầu tiên</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Designer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f8f8f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .project h3 {
+      margin-top: 0.8rem;
+    }
+    .about, .contact {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #222;
+      color: white;
+      margin-top: 2rem;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <h1>Xin chào!</h1>
-    <p>Đây là trang web của tôi trên GitHub Pages.</p>
+  <header>
+    <h1>Tên của bạn</h1>
+    <p>Graphic / UI-UX Designer</p>
+  </header>
+
+  <section>
+    <h2>Portfolio</h2>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/800x400" alt="Project Image">
+      <h3>Tên Dự Án 1</h3>
+      <p>Mô tả ngắn gọn về dự án thiết kế: mục tiêu, phong cách, công cụ bạn đã dùng.</p>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/800x400" alt="Project Image">
+      <h3>Tên Dự Án 2</h3>
+      <p>Mô tả ngắn khác cho một dự án khác.</p>
+    </div>
+
+    <div class="about">
+      <h2>About Me</h2>
+      <p>Giới thiệu bản thân: bạn là ai, bạn học gì, kinh nghiệm thiết kế ra sao, kỹ năng mạnh của bạn là gì?</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ban@email.com">ban@email.com</a></p>
+      <p>Behance / LinkedIn / Instagram: <a href="#">liên kết của bạn</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 - Thiết kế bởi bạn
+  </footer>
 </body>
 </html>
