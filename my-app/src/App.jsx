@@ -1,7 +1,5 @@
-import TuongList from "./components/TuongList";
+import TuongList from './TuongList';
 
-function App() {
+export default function App() {
   return <TuongList />;
 }
-
-export default App;
