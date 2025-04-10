@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tuong-tqs-tailwind/static/css/main.2f87437e.css",
-    "main.js": "/tuong-tqs-tailwind/static/js/main.6622e506.js",
-    "index.html": "/tuong-tqs-tailwind/index.html",
-    "main.2f87437e.css.map": "/tuong-tqs-tailwind/static/css/main.2f87437e.css.map",
-    "main.6622e506.js.map": "/tuong-tqs-tailwind/static/js/main.6622e506.js.map"
+    "main.css": "/static/css/main.2f87437e.css",
+    "main.js": "/static/js/main.6622e506.js",
+    "index.html": "/index.html",
+    "main.2f87437e.css.map": "/static/css/main.2f87437e.css.map",
+    "main.6622e506.js.map": "/static/js/main.6622e506.js.map"
   },
   "entrypoints": [
     "static/css/main.2f87437e.css",
